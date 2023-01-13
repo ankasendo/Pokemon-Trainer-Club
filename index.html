@@ -175,17 +175,35 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
     </section>
-
-
-    <!--footer-->
+    <!-- footer-->
 
     <footer>
-        <a href="#">Facebook</a>
-        <a href="#">Twitter</a>
-        <a href="#">Instagram</a>
-        <a href="#">Website</a>
+        <div id="follow-text">
+            <h3>Follow Us!</h3>
+            <p>"You Know How Pokemon Have Different Abilities? People Are Like That Too. Everyone Has Different
+                Potential."</p>
+        </div>
+        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i
+                class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com" target="_blank" aria-label="Youtube"><i
+                class="fab fa-youtube"></i></a>
+        <a href="https://www.pokemon.com/us" target="_blank" aria-label="Website"><i class="fas fa-globe"></i></a>
+        <p>Disclaimer - This website was created for educational purposes only. Anka Maric 2023.</p>
     </footer>
 
-</body>
+    <!-- font awesome kit -->
 
-</html>
+    <script src="https://kit.fontawesome.com/72dd490aed.js" crossorigin="anonymous"></script>
+
+    <!-- burger menu event -->
+
+    <script>
+        const burgerMenu = document.getElementById('burger-menu');
+        const navMenu = document.getElementById('nav-menu');
+
+        burgerMenu.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
