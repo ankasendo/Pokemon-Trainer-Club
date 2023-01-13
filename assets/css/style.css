@@ -85,7 +85,7 @@ h1,h3 {
 }
 
 #hero-banner {
-  background-image: url('../images/main\ image.jpg');
+  background-image: url('../images/Pokemon-Wallpaper-4K-HD-Free-download.jpg');
   position: relative;
   background-size: cover;
   background-position: center;
@@ -123,7 +123,6 @@ h1,h3 {
   border-left: 10px solid rgb(255, 222, 0);
   margin: 1.5em 10px;
   padding: 0.5em 10px;
-  quotes: "“" "”";
   }
 
 .heroquote:before {
