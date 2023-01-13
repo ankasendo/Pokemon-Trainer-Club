@@ -138,3 +138,45 @@ h1,h3 {
   display: inline;
   font-size: 1rem;
 }
+
+/* about section */
+
+#about{
+    margin: 1rem;
+    padding: 1rem;
+  }
+  
+  #about h2 {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 250%;
+    margin-top: -70px;
+  }
+  
+  /* timeline image */
+  
+  #caption-image__container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  #caption-image img {
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+    -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 90%, 0 0); 
+    clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 90%, 0 0);
+  }
+  
+  #caption-image__container .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
