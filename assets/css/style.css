@@ -14,28 +14,128 @@
 
 body {
     font-family: 'Ovo', sans-serif;
-    background-color: rgb(240, 240, 153);
+    background-color: #D8DBF4;
+}
+
+h4 {
+  text-align: center;
+  border-width: 1px;
+  border-style: solid;
 }
 
 /* logo *//* nav menu */
 
-h1 {
+h1,h3 {
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    color: rgb(59, 76, 202);
+    text-shadow: 2px 2px #292929d5;
+    color: rgb(255, 222, 0);
 }
 
 #logo {
     float: left;
-    font-size: 280%;
-    margin-left: 30px;
+    font-size: 2.5rem;
+    margin-left: 2rem;
 }
 
 #nav-menu {
     float: right;
-    font-size: 120%;
-    margin-right: 30px;
+    font-size: 1rem;
+    margin-right: 2rem;
+}
+
+#nav-menu li{
+  display:inline-block
+}
+
+#nav-menu a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 1rem;
+  color:#292929
+}
+
+#nav-menu a:hover {
+  border-bottom: 2px solid #292929;
+  padding-bottom: 2px;
 }
 
 #logo, #nav-menu {
-    line-height: 75px;
+    line-height: 5rem;
+}
+
+/* mobile burger menu */
+
+#burger-menu {
+  font-size: 2rem;
+  float: right;
+  margin-right: 2rem;
+  line-height: 75px;
+  cursor: pointer;
+}
+
+/* hero banner with text */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-banner {
+  background-image: url('../images/main\ image.jpg');
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+
+}
+
+.hero-text {
+  text-transform: uppercase;
+  text-shadow: 1px 1px #292929d5;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  top: 5rem;
+  left: 2rem;
+  color: white;
+  font-size: 1.5rem;
+  text-align: left;
+  }
+
+.hero-text li {
+  list-style: none;
+  }
+
+.hero-text li::before {
+  content: "⦿ "; color: 255, 222, 0;
+}
+
+.heroquote {
+  color: white;
+  position: absolute;
+  bottom: 3rem;
+  right: 0;
+  background-color: #29292993;
+  border-left: 10px solid rgb(255, 222, 0);
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "“" "”";
+  }
+
+.heroquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+  
+.heroquote p {
+  display: inline;
+  font-size: 1rem;
 }
