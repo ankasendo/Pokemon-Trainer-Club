@@ -662,7 +662,7 @@ fieldset {
 
 @media (max-width: 320px) {
   #logo {
-    font-size: 100%;
+    font-size: 80%;
   }
 
   #nav-menu ul {

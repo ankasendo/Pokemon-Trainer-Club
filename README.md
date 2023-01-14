@@ -47,17 +47,18 @@ The website has three pages. The [home page](index.html) is the default loading 
  * ### Colour Scheme
       I wanted the website to be aesthetically pleasing while using colours that are related to the Pokemon theme. I wanted to keep the minimal design to not overwhelm the user while still being enjoyable to look at. Long story short, the website is enjoyable and useful!
       I have paid a lot of attention to the color scheme. And used 3 colors throught the website. we've chosen Yellow, Blue as it is a good match for Pokemon ,and Black to contrast yellow and blue. 
+      Colour pallete is from [Scheme Color](https://www.schemecolor.com/pokemon-colors.php).
+     
+      ![colors]
+
+      [colors]:/assets/images/Screenshot%202023-01-12%20125358.png
+
+      Main colors used are yellow and black, with a little accent on the other main Pokemon colors.
+
  * ### Font Selection
      I've used 'Ovo' for the main font. This was done to match font known to Pokemon.
      The fonts are from [Google Fonts](https://fonts.google.com/).
 
- ![colors]
-
-
-
- [colors]:/assets/images/Screenshot%202023-01-12%20125358.png
-
-- Main colors used are yellow and black, with a little accent on the other main Pokemon colors.
 
 # Features 
 
