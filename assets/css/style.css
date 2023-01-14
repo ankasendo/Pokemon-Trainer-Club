@@ -14,7 +14,6 @@
 
 body {
     font-family: 'Ovo', sans-serif;
-    background-color: #D8DBF4;
 }
 
 h4 {
@@ -54,11 +53,11 @@ h1,h3 {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin: 1rem;
-  color:#292929
+  color: rgb(59, 76, 202);
 }
 
 #nav-menu a:hover {
-  border-bottom: 2px solid #292929;
+  border-bottom: 2px solid rgb(59, 76, 202);
   padding-bottom: 2px;
 }
 
@@ -91,12 +90,16 @@ h1,h3 {
   background-position: center;
   height: 100%;
   width: 100%;
+  filter: grayscale(0%);
+  transition: filter 0.1s;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 90%, 0 0); 
+  clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 90%, 0 0);
 
 }
 
 .hero-text {
   text-transform: uppercase;
-  text-shadow: 1px 1px #292929d5;
+  text-shadow: 1px 1px rgb(59, 76, 202);
   font-family: 'Montserrat', sans-serif;
   position: relative;
   top: 5rem;
@@ -111,7 +114,7 @@ h1,h3 {
   }
 
 .hero-text li::before {
-  content: "⦿ "; color: 255, 222, 0;
+  content: "⦿ "; color: rgb(255, 222, 0);
 }
 
 .heroquote {
@@ -119,10 +122,11 @@ h1,h3 {
   position: absolute;
   bottom: 3rem;
   right: 0;
-  background-color: #29292993;
-  border-left: 10px solid rgb(255, 222, 0);
+  background-color: #67c3f128;
+  border-left: 10px solid #f7b91a;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
+  quotes: "“" "”";
   }
 
 .heroquote:before {
@@ -138,201 +142,201 @@ h1,h3 {
   display: inline;
   font-size: 1rem;
 }
-
+  
 /* about section */
 
 #about{
-    margin: 1rem;
-    padding: 1rem;
-  }
-  
-  #about h2 {
-    position: absolute;
-    text-transform: uppercase;
-    font-size: 250%;
-    margin-top: -70px;
-    color: rgb(255, 222, 0);
-  }
-  
-  /* timeline image */
-  
-  #caption-image__container {
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
-  }
-  
-  #caption-image img {
-    display: flex;
-    object-fit: cover;
-    width: 100%;
-    height: 600px;
-    -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 90%, 0 0); 
-    clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 90%, 0 0);
-  }
-  
-  #caption-image__container .caption {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px;
-    text-align: center;
-  }
-  * timeline section */
+  margin: 1rem;
+  padding: 1rem;
+}
 
-  #timeline-article {
-    margin: 1rem;
-    padding: 1rem;
-  }
-  
-  #timeline-article h3 {
-    position: absolute;
-    font-size: 200%;
-    margin-top: -70px;
-  }
-  
-  /* timeline */
-  
-  .timeline {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    list-style: none;
-  }
-  
-  .timeline-item {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    min-width: 300px;
-    padding: 2rem;
-    box-sizing: border-box;
-  }
-  
-  .timeline-item:not(:last-child) {
-    border-right: 1px solid #ccc;
-  }
-  
-  .timeline-item__date {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 0.5rem;
-  }
-  
-  .timeline-item__content {
-    flex: 1;
-  }
-  .timeline-item li {
-    padding-bottom: 1rem;
-    list-style-type: "⦿ ";
-  }
-  
-  .timeline-item li::marker {
-    color: rgb(255, 222, 0);
-  }
-  
-  #history-made li {
-    font-weight: 600;
-  }
-  
-  /* trailer text */
-  
-  #trailer-text {
-    text-align: center;
-    font-size: 180%;
-    padding: 1rem 0px 0.5rem 0px;
-  }
-  
-  .trailer-text__p {
-    text-transform: uppercase;
-    text-align: center;
-    padding-bottom: 1rem;
-  }
-  
-  /* body quote block */
-  
-  .bodyquote {
-    background-color: #67c3f128;
-    border-left: 10px solid rgb(255, 222, 0);
-    margin: 1.5em 10px;
-    padding: 0.5em 10px;
-    quotes: "“" "”";
-  }
-  
-  .bodyquote:before {
-    color: #ccc;
-    content: open-quote;
-    font-size: 4em;
-    line-height: 0.1em;
-    margin-right: 0.25em;
-    vertical-align: -0.4em;
-  }
-  
-  .bodyquote p {
-    display: inline;
-  }
-  
-  /* footer */
-  
-  #follow-text {
-    background-color: black;
-    text-align: center;
-    width: 100%;
-    margin-top: -5px;
-    padding-bottom: 5px;
-    position: relative;
-    left: 0;
-    bottom: 0;
-  }
-  
-  #follow-text h3 {
-    font-size: 120%;
-    padding-top: 20px;
-  }
-  
-  #follow-text p {
-    color: white;
-    padding-bottom: 10px;
-  
-  }
-  
-  footer {
-    position: static;
-    left: 0;
-    bottom: 0;
-    text-align: center;
-    background-color: black;
-    width: 100%;
-    font-size: 180%;
-  }
-  
-  footer.visible {
-    bottom: 0;
-  }
-  
-  footer a {
-    text-decoration: none;
-    color: white;
-    padding: 5px;
-  }
-  
-  footer a:hover {
-    color:rgb(255, 222, 0);
-  }
-  
-  footer p {
-    color: white;
-    font-size: 12px;
-    padding: 10px 5px;
-  }
+#about h2 {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 250%;
+  margin-top: -70px;
+}
 
-  /* gallery styling */
+/* timeline image */
+
+#caption-image__container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+#caption-image img {
+  display: flex;
+  object-fit: cover;
+  width: 100%;
+  height: 600px;
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 90%, 0 0); 
+  clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 90%, 0 0);
+}
+
+#caption-image__container .caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* timeline section */
+
+#timeline-article {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+#timeline-article h3 {
+  position: absolute;
+  font-size: 200%;
+  margin-top: -70px;
+}
+
+/* timeline */
+
+.timeline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  list-style: none;
+}
+
+.timeline-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 300px;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.timeline-item:not(:last-child) {
+  border-right: 1px solid #ccc;
+}
+
+.timeline-item__date {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-item__content {
+  flex: 1;
+}
+.timeline-item li {
+  padding-bottom: 1rem;
+  list-style-type: "⦿ ";
+}
+
+.timeline-item li::marker {
+  color: rgb(255, 222, 0);
+}
+
+#history-made li {
+  font-weight: 600;
+}
+
+/* trailer text */
+
+#trailer-text {
+  text-align: center;
+  font-size: 180%;
+  padding: 1rem 0px 0.5rem 0px;
+}
+
+.trailer-text__p {
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+/* body quote block */
+
+.bodyquote {
+  background-color: #67c3f128;
+  border-left: 10px solid rgb(255, 222, 0);
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "“" "”";
+}
+
+.bodyquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.bodyquote p {
+  display: inline;
+}
+
+/* footer */
+
+#follow-text {
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  margin-top: -5px;
+  padding-bottom: 5px;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+#follow-text h3 {
+  font-size: 120%;
+  padding-top: 20px;
+}
+
+#follow-text p {
+  color: white;
+  padding-bottom: 10px;
+
+}
+
+footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  font-size: 180%;
+}
+
+footer.visible {
+  bottom: 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+footer a:hover {
+  color:rgb(255, 222, 0);
+}
+
+footer p {
+  color: white;
+  font-size: 12px;
+  padding: 10px 5px;
+}
+
+/* gallery styling */
 
 #gallery-title {
-  background-image: url('../images/gallery/main\ image.jpg');
+  background-image: url('../images/gallery/Pokemon\ 3.webp');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -382,6 +386,7 @@ h1,h3 {
   height: 100%;
   width: 100%;
   margin-bottom: 20px;
+  margin-top: 30px;
   overflow: hidden;
   position: relative;
   
@@ -473,7 +478,7 @@ fieldset {
 }
 
 #signup-form input[type="submit"]:hover {
-  background-color: rgb(255, 222, 0);
+  background-color: #f7b91a;
 }
 
 /* google maps */
@@ -488,7 +493,6 @@ fieldset {
   padding: 0px 20px 20px;
 }
 
-  
 /* thank you page */
 
 #thank-you__container {
