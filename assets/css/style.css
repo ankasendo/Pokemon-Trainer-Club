@@ -336,7 +336,7 @@ footer p {
 /* gallery styling */
 
 #gallery-title {
-background-image: url('/assets/images/gallerymain-new.jpg');
+background-image: url('../images/gallerymain-new.jpg');
   background-size: cover;
   background-position: center;
   height: 100%;
