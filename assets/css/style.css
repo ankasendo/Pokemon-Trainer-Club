@@ -622,9 +622,15 @@ fieldset {
   }
 
   #about h2 {
-    font-size: 250%;
+    font-size: 175%;
     margin-top: -70px;
   }
+  #thank-you__container img {
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    width: 100%;
+    height: 768px;
 }
 
 /* responsive design screen size 480px */
