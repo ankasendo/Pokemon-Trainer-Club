@@ -489,143 +489,167 @@ fieldset {
 }
 
   
-/*Media query*/
-  /* responsive design screen size 1440px */
+/* thank you page */
+
+#thank-you__container {
+  max-width: 100%;
+}
+
+#thank-you__container img {
+  display: flex;
+  object-fit: cover;
+  justify-content: center;
+  width: 100%;
+  height: 1000px;
+}
+
+.thankyou-text {
+  position: absolute;
+  font-size: 200%;
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+
+/* responsive design screen size 1440px */
 
 @media (min-width: 1440px) {
-    body {
-      width: 1440px;
-      margin: 0 auto;
-    }
+  body {
+    width: 1440px;
+    margin: 0 auto;
   }
-  
-  /* responsive design screen size 834px */
-  
-  @media (max-width: 834px) {
-    #logo {
-      font-size: 200%;
-    }
-    #nav-menu {
-      position: absolute;
-      top: 75px;
-      width: 100%;
-      background-color: rgba(20, 20, 20, 0.322);
-      z-index: 1;
-      display: none;
-    }
-    #nav-menu ul {
-      display: flex;
-      justify-content: center;
-      font-size: 75%;    
-    }
-    #nav-menu a {
-      color:#ffffff;
-      text-shadow: 2px 2px #292929d5;
-    }
-    #nav-menu a:hover {
-      border-bottom: 2px solid #f7b91a;
-      padding-bottom: 2px;
-    }
-    #nav-menu.active {
-      display: block;
-    }
-    #logo, #nav-menu {
-      line-height: 75px;
-    }
-    #burger-menu {
-      display: block;
-      float: right;
-      cursor: pointer;
-    }
-    #hero-text {
-      font-size: 100%;
-    } 
-     #about h2 {
-      font-size: 240%;
-    }   
+}
+
+/* responsive design screen size 834px */
+
+@media (max-width: 834px) {
+  #logo {
+    font-size: 200%;
   }
-  
-  /* burger menu 835px */
-  
-  @media (min-width: 835px) {
-    #burger-menu {
-      display: none;
-    }
+  #nav-menu {
+    position: absolute;
+    top: 75px;
+    width: 100%;
+    background-color: rgba(20, 20, 20, 0.322);
+    z-index: 1;
+    display: none;
   }
-    
-  /* responsive design screen size 768px */
-  
-  @media (min-width: 768px) {
-    .timeline {
-      flex-direction: row;
-    }
-    .timeline-item {
-      width: 50%;
-    }
-    .timeline-item:not(:last-child) {
-      border-right: 1px solid #ccc;
-    }
+  #nav-menu ul {
+    display: flex;
+    justify-content: center;
+    font-size: 75%;    
   }
-  
-  @media (max-width: 768px) {
-  
-    #image-gallery {
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-    }
-    #about h2 {
-      font-size: 250%;
-      margin-top: -70px;
-    }
+  #nav-menu a {
+    color:#ffffff;
+    text-shadow: 2px 2px #292929d5;
   }
-  
-  /* responsive design screen size 480px */
-  
-  @media (max-width: 430px) {
-    #logo {
-      font-size: 190%;
-    }
-  
-    #image-gallery {
-      grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(1, 1fr);
-    }
+  #nav-menu a:hover {
+    border-bottom: 2px solid #f7b91a;
+    padding-bottom: 2px;
   }
-  
-  /* responsive design screen size 375px */
-  
-  @media (max-width: 375px) {
-    #logo {
-      font-size: 160%;
-    }
-    #about h2 {
-      font-size: 200%;
-    }
+  #nav-menu.active {
+    display: block;
   }
-  
-  /* responsive design screen size 320px */
-  
-  @media (max-width: 320px) {
-    #logo {
-      font-size: 140%;
-    }
-    #nav-menu ul {
-      display: flex;
-      justify-content: center;
-      font-size: 60%;
-    }
-    #about h2 {
-      font-size: 160%;
-    }
-    .hero-text {
-      font-size: 1.1rem;
-    }
+  #logo, #nav-menu {
+    line-height: 75px;
   }
-  
-  /* responsive design screen size 300px */
-  
-  @media (max-width: 300px) {
-    #logo {
-      font-size: 120%;
-    }  
+  #burger-menu {
+    display: block;
+    float: right;
+    cursor: pointer;
   }
+  #hero-text {
+    font-size: 100%;
+  } 
+   #about h2 {
+    font-size: 240%;
+  }   
+}
+
+/* burger menu 835px */
+
+@media (min-width: 835px) {
+  #burger-menu {
+    display: none;
+  }
+}
+  
+/* responsive design screen size 768px */
+
+@media (min-width: 768px) {
+  .timeline {
+    flex-direction: row;
+  }
+  .timeline-item {
+    width: 50%;
+  }
+  .timeline-item:not(:last-child) {
+    border-right: 1px solid #ccc;
+  }
+}
+
+@media (max-width: 768px) {
+
+  #image-gallery {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  #about h2 {
+    font-size: 250%;
+    margin-top: -70px;
+  }
+}
+
+/* responsive design screen size 480px */
+
+@media (max-width: 430px) {
+  #logo {
+    font-size: 190%;
+  }
+
+  #image-gallery {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+}
+
+/* responsive design screen size 375px */
+
+@media (max-width: 375px) {
+  #logo {
+    font-size: 160%;
+  }
+  #about h2 {
+    font-size: 200%;
+  }
+}
+
+/* responsive design screen size 320px */
+
+@media (max-width: 320px) {
+  #logo {
+    font-size: 140%;
+  }
+  #nav-menu ul {
+    display: flex;
+    justify-content: center;
+    font-size: 60%;
+  }
+  #about h2 {
+    font-size: 160%;
+  }
+  .hero-text {
+    font-size: 1.1rem;
+  }
+}
+
+/* responsive design screen size 300px */
+
+@media (max-width: 300px) {
+  #logo {
+    font-size: 120%;
+  }  
+}
