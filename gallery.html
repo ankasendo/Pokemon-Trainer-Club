@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pokemon club for over 7 years old">
+    <meta name="keywords" content="Pokemon club for over 7 years old, trading cards, Pokemon Go, Pokemon cards">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Pokémon Trainer Club</title>
+</head>
+
+<body>
+
+    <!--navigation bar-->
+
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Pokémon Trainer Club</h1>
+        </a>
+        <nav id="nav-menu">
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a href="gallery.html"><i class="fa-solid fa-image"></i> Gallery</a></li>
+                <li><a href="sign-up.html"><i class="fa-solid fa-right-to-bracket"></i> Sign Up</a></li>
+            </ul>
+        </nav>
+        <i id="burger-menu" class="fas fa-bars"></i>
+    </header>
+
+    <!-- gallery tittle -->
+
+    <section id="gallery-title">
+        <h3>Gallery</h3>
+    </section>
+
+    <p class="gallery-text">
+        The original Pokémon is a role-playing game based around building a small team of monsters to battle other
+        monsters in a quest to become the best. Pokémon are divided into types, such as water and fire, each with
+        different strengths. Battles between them can be likened to the simple hand game rock-paper-scissors.
+    </p>
+
+    <!--image gallery-->
+
+    <div id="image-gallery-outer">
+        <div id="image-gallery">
+            <img src="assets/images/image 1.png" alt="Pokemon cards">
+            <img src="assets/images/image 2.jpg" alt="Charzard on the phone game">
+            <img src="assets/images/image 3.jpg" alt="Blastoise cars">
+            <img src="assets/images/image 4.jpg" alt="Pokemon trainer">
+            <img src="assets/images/image 5.jpeg" alt="multiple cards facing down">
+            <img src="assets/images/image 6.jpeg" alt="Special cards">
+            <img src="assets/images/image 7.jpg" alt="Group of cards">
+            <img src="assets/images/image 8.jpeg" alt="Card in hand">
+            <img src="assets/images/image 9.jpg" alt="Pokeball">
+            <img src="assets/images/image 10.jpg" alt="Family playing pokemon">
+            <img src="assets/images/image 11.jpg" alt="Pokeball and trading cards">
+            <img src="assets/images/image 12.jpg" alt="Online game">
+        </div>
+    </div>
+
+    <footer>
+        <div id="follow-text">
+            <h3>Follow Us!</h3>
+            <p>"You Know How Pokemon Have Different Abilities? People Are Like That Too. Everyone Has Different
+                Potential."</p>
+        </div>
+        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com" target="_blank" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.pokemon.com/us" target="_blank" aria-label="Website"><i class="fas fa-globe"></i></a>
+        <p>Disclaimer - This website was created for educational purposes only. Anka Maric 2023.</p>
+    </footer>
+    <!-- font awesome kit -->
+
+    <script src="https://kit.fontawesome.com/72dd490aed.js" crossorigin="anonymous"></script>
+
+    <!-- burger menu event -->
+
+    <script>
+        const burgerMenu = document.getElementById('burger-menu');
+        const navMenu = document.getElementById('nav-menu');
+
+        burgerMenu.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+    </script>
+
+</body>
+
+</html>
