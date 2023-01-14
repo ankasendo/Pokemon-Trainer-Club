@@ -84,7 +84,7 @@ h1,h3 {
 }
 
 #hero-banner {
-  background-image: url('../images/Pokemon-Wallpaper-4K-HD-Free-download.jpg');
+  background-image: url('../images/Thankyou2.webp');
   position: relative;
   background-size: cover;
   background-position: center;
@@ -336,7 +336,7 @@ footer p {
 /* gallery styling */
 
 #gallery-title {
-  background-image: url('../images/gallery/Pokemon\ 3.webp');
+background-image: url('/assets/images/gallerymain-new.jpg');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -478,10 +478,10 @@ fieldset {
 }
 
 #signup-form input[type="submit"]:hover {
-  background-color: #f7b91a;
+  background-color: rgb(255, 222, 0);
 }
 
-/* google maps */
+/* google maps' */
 
 #gmaps h3 {
   font-size: 200%;
