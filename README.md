@@ -51,9 +51,7 @@ The website has three pages. The [home page](index.html) is the default loading 
       I have paid a lot of attention to the color scheme. And used 3 colors throught the website. we've chosen Yellow, Blue as it is a good match for Pokemon ,and Black to contrast yellow and blue. 
       Colour pallete is from [Scheme Color](https://www.schemecolor.com/pokemon-colors.php).
      
-      ![colors]
-
-      [colors]:/assets/images/Screenshot%202023-01-12%20125358.png
+      ![colors](assets/images/colors.png)
 
       Main colors used are yellow and black, with a little accent on the other main Pokemon colors.
 
@@ -77,7 +75,7 @@ This website is primarily for fans and  Pokemon enthusiast, particularly those w
 
   - The Navigation Bar for mobile devices is designed to be responsive, meaning it adjusts to fit the size and resolution of the device it is being viewed on. This allows for optimal user experience and accessibility, as the navigation options are always easily accessible and visible, regardless of the size of the device being used. This feature ensures that users can navigate the website with ease and convenience while on mobile.
 
-![Nav Bar Mobile](assets/images/mobile%20nav1.jpg)
+![Nav Bar Laptop](assets/images/mobile-nav1.jpg)
 
 ### 2. Hero Image Section
   
@@ -183,7 +181,7 @@ This website is primarily for fans and  Pokemon enthusiast, particularly those w
 
   Validation results:
 
-![html](assets/images/html%20main%20val.png)
+![html](assets/images/html-main-val.png)
 
  Gallery validation: 
 
