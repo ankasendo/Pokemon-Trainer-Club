@@ -42,7 +42,8 @@ The website has three pages. The [home page](index.html) is the default loading 
 ## Design Choices
 
  * ### Typography
-    The fonts chosen were 'Monsterrat' for the headings and 'Ovo' for the body text. They fall back to sans-serif respectively. 
+    The fonts chosen were 'Monsterrat' for the headings and 'Ovo' for the body text. They fall back to sans-serif respectively. The fonts are from [Google Fonts](https://fonts.google.com/).
+
 
  * ### Colour Scheme
       I wanted the website to be aesthetically pleasing while using colours that are related to the Pokemon theme. I wanted to keep the minimal design to not overwhelm the user while still being enjoyable to look at. Long story short, the website is enjoyable and useful!
@@ -54,11 +55,6 @@ The website has three pages. The [home page](index.html) is the default loading 
       [colors]:/assets/images/Screenshot%202023-01-12%20125358.png
 
       Main colors used are yellow and black, with a little accent on the other main Pokemon colors.
-
- * ### Font Selection
-     I've used 'Ovo' for the main font. This was done to match font known to Pokemon.
-     The fonts are from [Google Fonts](https://fonts.google.com/).
-
 
 # Features 
 
@@ -107,6 +103,24 @@ This website is primarily for fans and  Pokemon enthusiast, particularly those w
 
   - Pokemon Universe section of the page explaines Pokemon existance. 
 
-![Time Line Section](assets/images/pokemonuniverse.png)
+![Pokemon Universe](assets/images/pokemonuniverse.png)
 
+## 6. Timetable section 
 
+  - Provides relevant times and venues
+
+![Timetable](assets/images/timetable.png)
+
+## 7. YouTube Section
+
+  - The YouTube section on the page is placed with an aim to introduce a user with useful YouTube Pokemon Chanel. 
+  - This section allows user to learn more about Pokemons, game and trading cards.
+
+ ![Movie Trailer Section](assets/images/youtube.png)
+
+## 8. The Footer
+
+  - The Footer section of the page includes a heading that directs visitors to the social media accounts of Pokemon Club
+  - At the very bottom of the footer, there's a disclaimer that provides legal information about the website and its content.
+
+![Footer](assets/images/footer.png)
