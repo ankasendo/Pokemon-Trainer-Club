@@ -328,6 +328,54 @@ h1,h3 {
     font-size: 12px;
     padding: 10px 5px;
   }
+
+  /* gallery styling */
+
+#gallery-title {
+  background-image: url('../images/gallery/main\ image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+#gallery-title h3{
+  font-size: 200%;
+  text-align: center;
+  padding: 100px;
+  background-color: #52525259;
+}
+
+.gallery-text {
+  margin: 1rem;
+  padding: 1rem;
+}
+
+#image-gallery-outer{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+}
+
+#image-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+  padding-bottom: 15px;
+}
+
+#image-gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
   
 
   /* responsive design screen size 1440px */
