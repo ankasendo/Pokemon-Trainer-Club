@@ -267,4 +267,4 @@ Lighthouse via Microsoft Edge
 - [W3Schools](https://www.w3schools.com/)
       As a general reminder of HTML and CSS.
 - The [slack](https://slack.com/intl/en-ie/https://slack.com/intl/en-ie/) community which i can always rely on. Questions and answers by fellow students on Slack were heavily consulted.
-- I would like to thank the assessment team for taking their time to look over my project, Code institute Tutors and Love Sanwiches guided project.
+- I would like to thank the assessment team for taking their time to look over my project, Code institute Tutors and Love Running guided project.
