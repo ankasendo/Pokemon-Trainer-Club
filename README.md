@@ -1,4 +1,4 @@
-# Portfolio project - HTML and CSS
+# Portfolio project 1 - HTML and CSS
 
 # Pokemon Trainer Club
 
