@@ -5,15 +5,15 @@
 /* all elemets */
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 /* body text */
 
 body {
-    font-family: 'Ovo', sans-serif;
+  font-family: 'Ovo', sans-serif;
 }
 
 h4 {
@@ -22,29 +22,31 @@ h4 {
   border-style: solid;
 }
 
-/* logo *//* nav menu */
+/* logo */
+/* nav menu */
 
-h1,h3 {
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    text-shadow: 2px 2px #292929d5;
-    color: rgb(255, 222, 0);
+h1,
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #292929d5;
+  color: rgb(255, 222, 0);
 }
 
 #logo {
-    float: left;
-    font-size: 2.5rem;
-    margin-left: 2rem;
+  float: left;
+  font-size: 2.5rem;
+  margin-left: 2rem;
 }
 
 #nav-menu {
-    float: right;
-    font-size: 1rem;
-    margin-right: 2rem;
+  float: right;
+  font-size: 1rem;
+  margin-right: 2rem;
 }
 
-#nav-menu li{
-  display:inline-block
+#nav-menu li {
+  display: inline-block
 }
 
 #nav-menu a {
@@ -61,8 +63,9 @@ h1,h3 {
   padding-bottom: 2px;
 }
 
-#logo, #nav-menu {
-    line-height: 5rem;
+#logo,
+#nav-menu {
+  line-height: 5rem;
 }
 
 /* mobile burger menu */
@@ -78,9 +81,9 @@ h1,h3 {
 /* hero banner with text */
 
 #hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
 }
 
 #hero-banner {
@@ -92,7 +95,7 @@ h1,h3 {
   width: 100%;
   filter: grayscale(0%);
   transition: filter 0.1s;
-  -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 90%, 0 0); 
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 90%, 0 0);
   clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 90%, 0 0);
 
 }
@@ -107,14 +110,15 @@ h1,h3 {
   color: white;
   font-size: 1.5rem;
   text-align: left;
-  }
+}
 
 .hero-text li {
   list-style: none;
-  }
+}
 
 .hero-text li::before {
-  content: "⦿ "; color: rgb(255, 222, 0);
+  content: "⦿ ";
+  color: rgb(255, 222, 0);
 }
 
 .heroquote {
@@ -126,8 +130,8 @@ h1,h3 {
   border-left: 10px solid #f7b91a;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
-  quotes: "“" "”";
-  }
+  quotes: "“""”";
+}
 
 .heroquote:before {
   color: #ccc;
@@ -137,15 +141,15 @@ h1,h3 {
   margin-right: 0.25em;
   vertical-align: -0.4em;
 }
-  
+
 .heroquote p {
   display: inline;
   font-size: 1rem;
 }
-  
+
 /* about section */
 
-#about{
+#about {
   margin: 1rem;
   padding: 1rem;
 }
@@ -170,7 +174,7 @@ h1,h3 {
   object-fit: cover;
   width: 100%;
   height: 600px;
-  -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 90%, 0 0); 
+  -webkit-clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 90%, 0 0);
   clip-path: polygon(100% 0, 100% 100%, 50% 90%, 0 90%, 0 0);
 }
 
@@ -229,6 +233,7 @@ h1,h3 {
 .timeline-item__content {
   flex: 1;
 }
+
 .timeline-item li {
   padding-bottom: 1rem;
   list-style-type: "⦿ ";
@@ -263,7 +268,7 @@ h1,h3 {
   border-left: 10px solid rgb(255, 222, 0);
   margin: 1.5em 10px;
   padding: 0.5em 10px;
-  quotes: "“" "”";
+  quotes: "“""”";
 }
 
 .bodyquote:before {
@@ -324,7 +329,7 @@ footer a {
 }
 
 footer a:hover {
-  color:rgb(255, 222, 0);
+  color: rgb(255, 222, 0);
 }
 
 footer p {
@@ -336,7 +341,7 @@ footer p {
 /* gallery styling */
 
 #gallery-title {
-background-image: url('../images/gallerymain-new.jpg');
+  background-image: url('../images/gallerymain-new.jpg');
   background-size: cover;
   background-position: center;
   height: 100%;
@@ -346,7 +351,7 @@ background-image: url('../images/gallerymain-new.jpg');
   position: relative;
 }
 
-#gallery-title h3{
+#gallery-title h3 {
   font-size: 200%;
   text-align: center;
   padding: 100px;
@@ -358,7 +363,7 @@ background-image: url('../images/gallerymain-new.jpg');
   padding: 1rem;
 }
 
-#image-gallery-outer{
+#image-gallery-outer {
   height: 100%;
   width: 100%;
   overflow: hidden;
@@ -389,9 +394,10 @@ background-image: url('../images/gallerymain-new.jpg');
   margin-top: 30px;
   overflow: hidden;
   position: relative;
-  
+
 }
-#signup-title h3{
+
+#signup-title h3 {
   font-size: 200%;
   text-align: center;
   padding: 80px 0px 0px 0px;
@@ -400,7 +406,7 @@ background-image: url('../images/gallerymain-new.jpg');
   border-top-color: black;
 }
 
-#signup-title p{
+#signup-title p {
   text-align: center;
   padding: 0px 20px 20px;
 }
@@ -431,7 +437,8 @@ background-image: url('../images/gallerymain-new.jpg');
   margin-bottom: 10px;
 }
 
-#signup-form input[type="text"], #signup-form input[type="email"] {
+#signup-form input[type="text"],
+#signup-form input[type="email"] {
   text-align: center;
   width: 100%;
   padding: 15px 0px;
@@ -533,6 +540,7 @@ fieldset {
   #logo {
     font-size: 200%;
   }
+
   #nav-menu {
     position: absolute;
     top: 75px;
@@ -541,36 +549,45 @@ fieldset {
     z-index: 1;
     display: none;
   }
+
   #nav-menu ul {
     display: flex;
     justify-content: center;
-    font-size: 75%;    
+    font-size: 75%;
   }
+
   #nav-menu a {
-    color:#ffffff;
+    color: #ffffff;
     text-shadow: 2px 2px #292929d5;
   }
+
   #nav-menu a:hover {
     border-bottom: 2px solid #f7b91a;
     padding-bottom: 2px;
   }
+
   #nav-menu.active {
     display: block;
   }
-  #logo, #nav-menu {
+
+  #logo,
+  #nav-menu {
     line-height: 75px;
   }
+
   #burger-menu {
     display: block;
     float: right;
     cursor: pointer;
   }
+
   #hero-text {
     font-size: 100%;
-  } 
-   #about h2 {
+  }
+
+  #about h2 {
     font-size: 240%;
-  }   
+  }
 }
 
 /* burger menu 835px */
@@ -580,16 +597,18 @@ fieldset {
     display: none;
   }
 }
-  
+
 /* responsive design screen size 768px */
 
 @media (min-width: 768px) {
   .timeline {
     flex-direction: row;
   }
+
   .timeline-item {
     width: 50%;
   }
+
   .timeline-item:not(:last-child) {
     border-right: 1px solid #ccc;
   }
@@ -601,6 +620,7 @@ fieldset {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
+
   #about h2 {
     font-size: 250%;
     margin-top: -70px;
@@ -626,6 +646,7 @@ fieldset {
   #logo {
     font-size: 160%;
   }
+
   #about h2 {
     font-size: 200%;
   }
@@ -635,18 +656,39 @@ fieldset {
 
 @media (max-width: 320px) {
   #logo {
-    font-size: 140%;
+    font-size: 120%;
   }
+
   #nav-menu ul {
     display: flex;
     justify-content: center;
     font-size: 60%;
   }
+
   #about h2 {
-    font-size: 160%;
+    font-size: 100%;
   }
+
+  .thankyou-text {
+    font-size: 100%;
+    margin-top: 70px;
+  }
+  #thank-you__container img {
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+  }
+
   .hero-text {
-    font-size: 1.1rem;
+    font-size: 1rem;
+  }
+
+  #timeline-article h3 {
+    position: absolute;
+    font-size: 180%;
+    margin-top: -70px;
   }
 }
 
@@ -655,5 +697,5 @@ fieldset {
 @media (max-width: 300px) {
   #logo {
     font-size: 120%;
-  }  
+  }
 }
