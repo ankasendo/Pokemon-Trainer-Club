@@ -6,7 +6,7 @@
 
 The goal of this project is to get Pokemon Fans together, to promote Pokemon culture and most importantly to have fun! Pokémon Club is a local club for children age 7 and up. Pokémon Trainer Club membership can help you manage your Pokemon.com profile, play the Pokémon Trading Card every week, and much more!
 
-Pokemon Trainer Cub a website made solely with HTML and CSS. 
+Pokemon Trainer Cub is a website made solely with HTML and CSS. 
 The Website has been built to be fully responsive across all devices.
 
 ![logo]
@@ -75,8 +75,38 @@ This website is primarily for fans and  Pokemon enthusiast, particularly those w
 
 ![Nav Bar Laptop](assets/images/logo-navbar.png)
 
-### Mobile
+#### Mobile
 
   - The Navigation Bar for mobile devices is designed to be responsive, meaning it adjusts to fit the size and resolution of the device it is being viewed on. This allows for optimal user experience and accessibility, as the navigation options are always easily accessible and visible, regardless of the size of the device being used. This feature ensures that users can navigate the website with ease and convenience while on mobile.
 
-![Nav Bar Mobile](assets)
+![Nav Bar Mobile](assets/images/mobile%20nav1.jpg)
+
+### 2. Hero Image Section
+  
+  - The landing page displays few Pokemons together with dark background. Photo is accompanied by a list of short explanation what is page about..
+  
+
+![Landing Page](assets/images/landing-page.png)
+
+## 3. About Section
+
+  - The About section welcomes Pokemon and it briefly introduce user to Pokemons, providing an short overview and background 
+
+![About Section](assets/images/welcome1.png)
+
+
+## 4.Image Caption Section
+
+  - The Image section on the page includes a Quote from one of the trainers in the Pokemon series.  Additionally, it includes a heading with accompanying text that explains Pokemon Universe.
+  - This section aims to give visitors a comprehensive understanding of the Pokemons. It also serves as an educational resource for those who are unfamiliar with the Pokemons and traiding card games but are interested in learning more.
+
+![Image Caption Section](assets/images/photoquote.png)
+
+
+## 5. Pokemon Universe section
+
+  - Pokemon Universe section of the page explaines Pokemon existance. 
+
+![Time Line Section](assets/images/pokemonuniverse.png)
+
+
