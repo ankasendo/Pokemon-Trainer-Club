@@ -662,17 +662,18 @@ fieldset {
 
 @media (max-width: 320px) {
   #logo {
-    font-size: 120%;
+    font-size: 100%;
   }
 
   #nav-menu ul {
     display: flex;
     justify-content: center;
-    font-size: 60%;
+    font-size: 40%;
   }
 
   #about h2 {
-    font-size: 100%;
+    font-size: 120%;
+    
   }
 
   .thankyou-text {
@@ -704,4 +705,5 @@ fieldset {
   #logo {
     font-size: 120%;
   }
+}
 }
