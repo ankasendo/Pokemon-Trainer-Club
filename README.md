@@ -2,7 +2,7 @@
 
 # Pokemon Trainer Club
 
-[View the live project here!](https://ankasendo.github.io/Pokemon-Trainer-Club1/)
+[View the live project here!](https://ankasendo.github.io/Pokemon-Trainer-Club/)
 
 The goal of this project is to get Pokemon Fans together, to promote Pokemon culture and most importantly to have fun! Pokémon Club is a local club for children age 7 and up. Pokémon Trainer Club membership can help you manage your Pokemon.com profile, play the Pokémon Trading Card every week, and much more!
 
@@ -38,7 +38,7 @@ The Website has been built to be fully responsive across all devices.
 
 ## Site Structure
 
-The website has three pages. The [home page](index.html) is the default loading page, [gallery](gallery.html) and [sign up](sign-up.html) pages are all accessible primarily from the navigation menu. There is another page called [thank you](thank-you.html) that users only see when they submit a form query.
+The website has three pages. The [home page](https://ankasendo.github.io/Pokemon-Trainer-Club/index.html) is the default loading page, [gallery](https://ankasendo.github.io/Pokemon-Trainer-Club/gallery.html) and [sign up](https://ankasendo.github.io/Pokemon-Trainer-Club/sign-up.html) pages are all accessible primarily from the navigation menu. There is another page called [thank you](https://ankasendo.github.io/Pokemon-Trainer-Club/thank-you.html?name=Anka&surname=Mari%C4%87&email=anka.sendo%40gmail.com) that users only see when they submit a form query.
 
 ## Design Choices
 
@@ -241,11 +241,11 @@ Lighthouse via Microsoft Edge
 - To succsessfully deploy your webpage, go to the GitHub repository and navigate to the 'Settings' tab. Then, select 'Pages' from the menu.
 - Go to the 'Source' menu and select 'Main Branch'.
 - After the page has auto-refreshed, you should see a display with your link - this will mean a successful deployment.
-- Now, any changes pushed from GitPod to the master branch will be visible and take effect on the live project [live project link](https://ankasendo.github.io/Pokemon-Trainer-Club1/)
+- Now, any changes pushed from GitPod to the master branch will be visible and take effect on the live project [live project link](https://ankasendo.github.io/Pokemon-Trainer-Club/)
 
 # 7. Credits
 
-* [Stack Overflow](https://stackoverflow.com/)
+* [Stack Overflow](https://stackoverflow.com/) 
 * [W3 School](https://www.w3schools.com/) helped me with my research and understanding.
 * [Youtube](https://www.youtube.com/watch?v=SX-_YLFdXlE&t=1s) 
 * [Am I Responsive](https://ui.dev/amiresponsive) to create the main image for README file.
